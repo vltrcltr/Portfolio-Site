@@ -1,7 +1,7 @@
 # Project Explanation
 This is a personal portfolio site created using React.js. I wanted to learn and utilize React because it seemed fairly intuitive, and a cool new approach to structure a website from the ways I had become used to. It’s by no means perfect, and I still have some things to learn, but it definitely taught me a lot and I look forward to learning more.
 
-##API.js
+## API.js
 This is a simple api I built to handle standardized information pertaining to clients and associated projects, with the intent on minimizing the amount of components I’d have to import. There are two functions that will either retrieve all the information from the data array (**all()**), or return specific information based on an id number given to each project (**get()**). The project number is also used to handle navigation utilized by components.
 
 ## Components
