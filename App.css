@@ -1,0 +1,197 @@
+
+
+a {
+  color: #000;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #ffac4f;
+          text-decoration-color: #ffac4f;
+}
+
+a:hover {
+  background-color: #ffac4f;
+  transition: background-color 400ms;
+}
+
+body {
+  background: #b1b1b1;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* ABOUTME.JS STYLES */
+
+.aboutContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100vw;
+}
+
+.aboutImg {
+  padding-left: 8px;
+}
+
+.aboutText {
+  padding: 8px;
+}
+
+/* APP.JS STYLES */
+
+.containerDiv {
+  display: flex;
+  flex-flow: column nowrap;
+  font-family: 'Fondamento', cursive;
+  font-size: 5.1vw;
+  height: 100vh;
+  width: 100vw;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mainDiv1 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100vw;
+}
+
+.mainDiv2 {
+  display: none;
+}
+
+/* CLIENT.JS STYLES */
+
+.clientContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100vw;
+}
+
+.clientInfo {
+  padding-left: 8px;
+}
+
+.projectClient {
+  font-style: italic;
+  padding-bottom: 8px;
+}
+
+.projectDesc {
+  padding-bottom: 8px;
+  padding-right: 8px;
+}
+
+.projectImage {
+  padding-bottom: 4px;
+  display: flex;
+  width: 98%;
+}
+
+.prevNextLinks {
+  padding-bottom: 8px;
+  padding-right: 24px;
+}
+
+/* HEADER.JS STYLES */
+
+.headerContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100vw;
+}
+
+.headerDesc {
+  padding: 8px;
+}
+
+.headerNav{
+  padding: 8px 8px 16px 8px;
+}
+
+.nav {
+  margin-right: 24px;
+}
+
+/* MAIN.JS STYLES */
+
+.mainContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100vw;
+}
+
+/* PROJECTLIST.JS STYLES */
+
+.projectList {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-left: 8px;
+}
+
+.year {
+  font-family: 'Fondamento', cursive;
+  font-style: italic;
+  padding-left: 8px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 375px) {
+  .containerDiv {
+    font-size: 6.5vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .aboutContainer {
+    width: 55vw;
+  }
+
+  .clientContainer {
+    width: 55vw;
+  }
+
+  .containerDiv {
+    flex-flow: row nowrap;
+    font-size: 2.9vw;
+  }
+
+  .headerContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+  }
+
+  .mainContainer {
+    width: 100%;
+  }
+
+  .mainContainer2 {
+    padding-top: 8px;
+    width: 55vw;
+  }
+
+  .mainDiv1 {
+    display: flex;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    width: 45vw;
+  }
+
+  .mainDiv1::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mainDiv2 {
+    display: flex;
+    height: 100vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    width: 55vw;
+  }
+
+  .mainDiv2::-webkit-scrollbar {
+    display: none;
+  }
+}
